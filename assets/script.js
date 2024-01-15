@@ -36,4 +36,28 @@ var generateBtn = document.querySelector("#generate");
     var inputNumeric = confirm("Include numeric characters?");
     var inputSpecialChar = confirm("Include special characters?");
 
+
+    // IF function to validate character criteria chosen 
+    if (!inputUpperCase && !inputLowerCase && !inputNumeric && !inputSpecialChar) {
+    alert("Please enter at least one character criteria.");
+    return;
+    }
+    
+    var allChars = "";
+
+    // IF function to include the character criteria
+    if (inputUpperCase) {
+      allChars += upperCase;
+    }
+    if (inputLowerCase) {
+      allChars += lowerCase;
+    }
+      if (inputNumeric) {
+      allChars += numeric;
+    }
+    if (inputSpecialChar) {
+      allChars += specialChar;
+    }
+    
+    var password = "";
   }
