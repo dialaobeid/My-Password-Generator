@@ -1,4 +1,4 @@
-# My-Password-Generator
+# Diala's-Password-Generator
 My password generator description:
 
 This challenge requires us to create an application that an employee can use to generate a random password based on criteria they've selected. The app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that I wrote. The app should include the following criteria:
@@ -21,10 +21,13 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-Screenshot:
+Some of the code was written with reference from Xpert learning assistant offered by the bootcamp course
 
+Screenshot:
+![Alt text](/assets/Project-Screenshot.png)
 
 Link to github repository for this project:
-
+https://github.com/dialaobeid/My-Password-Generator/tree/main
 
 Link to deployed application:
+https://dialaobeid.github.io/My-Password-Generator/
