@@ -60,4 +60,11 @@ var generateBtn = document.querySelector("#generate");
     }
     
     var password = "";
+
+    // FOR loop to ensure that the character criteria is met
+    for (var i = 0; i < passwordLength; i++) {
+      var randomIndex = Math.floor(Math.random() * allChars.length);
+      password += allChars.charAt(randomIndex);
+    }
+    return password;   
   }
